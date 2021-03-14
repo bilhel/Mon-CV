@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.signature
+{
+    margin: 5rem;
+}
+
+.tetetableau
+{
+    margin: 5rem;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.tableau
+{
+    font-size: 15px;
+    margin: auto;
+    color: black;
+}
