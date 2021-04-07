@@ -1,148 +1,192 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-  <title>Accueil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>C.V</title>
 </head>
 
 <body>
-<div class="text-center bg-image" style="background-image: url('background.png'); background-repeat: no-repeat cover;">
 
+<div class="text-center bg-image fond">
+
+<div class="row">
+<div class="col">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Accueil</a></li>
-      <li class="nav-item"><a class="nav-link" href="#p&f">Profil & Compétences</a></li>
-      <li class="nav-item"><a class="nav-link" href="#c">Contact</a></li>
-    </ul>
-  </div>
-  <section>
-    <a href="https://github.com/bilhel">
-    <img src="logo_github.png" title="Mon GitHub" alt="logogit" height="45rem" width="45rem">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#a">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#p&f">Profil & Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#c">Contact</a></li>
+        </ul>
+    </div>
+
+    <a href="https://github.com/bilhel" target="_blank">
+        <img src="src/img/logo_github.png" title="Mon GitHub" alt="logogit" height="45rem" width="45rem">
     </a>
-  </section>
+
+    <a href="www.linkedin.com/in/torche-bilhel" target="_blank">
+        <img src="src/img/logo_linkedin.png" title="Mon Linkedin" alt="logolinkedin" height="50rem" width="50rem">
+    </a>
 </nav>
-
-<div class="container-fluid">
-
-<div class="signature">
-<img src="pdp.png" title="pdp" alt="pdp" height="213rem" width="213rem">
-<h1>TORCHE Bilhel</h1>
-<p>Concepteur développeur d'application</p>
+</div>
 </div>
 
-<h3 id="p&f">
+<div class="container-fluid">
+<div class="signature" id="a">
+    <img src="src/img/pdp.png" title="pdp" alt="pdp" height="213rem" width="213rem">
+    <h1>TORCHE Bilhel</h1>
+    <p>Concepteur développeur d'application</p>
+</div>
+
+<h3 class="pf" id="p&f">
     Profil & Compétences
     <br>
     _______
 </h3>
 
-<a href="https://drive.google.com/file/d/1YIgihXwme9VDG6Hy0cjlgGI6E7--6Kfj/view?usp=sharing" download class="btn btn-secondary btn-lg" tabindex="-1" role="button">Télécharger mon C.V</a>
+<a href="https://drive.google.com/file/d/1YIgihXwme9VDG6Hy0cjlgGI6E7--6Kfj/view?usp=sharing" target="_blank" download="image" class="btn btn-dark btn-lg" tabindex="-1" role="button">Télécharger mon C.V</a>
 
-<div class="row align-items-start tetetableau bg-secondary">
-  <div class="col">
-    Compétences
-  </div>
-  <div class="col">
-    Expériences
-  </div>
-  <div class="col">
-    Formations
-  </div>
-  <div class="col">
-    Profil
-  </div>
+<div class="row align-items-start tetetableau bg-dark">
+    <div class="col-md col-sm-12">
+        <p>Compétences</p>
+    </div>
+    <div class="col-md col-sm-12">
+        <p>Expériences</p>
+    </div>
+    <div class="col-md col-sm-12">
+        <p>Formations</p>
+    </div>
+    <div class="col-md col-sm-12">
+        <p>Profil</p>
+    </div>
 
 <div class="row align-items-start bg-light tableau">
-  <div class="col">
-    Langages :
-    <br><br>HTML5<br>CSS3<br>PHP<br>SQL<br>Javascript<br>Java<br>
-  </div>
-  <div class="col">
-    Frameworks :
-    <br><br>Bootstrap<br>
-  </div>
-  <div class="col">
-    Outils :
-    <br><br>VS Code<br>MariaDB<br>My SQL<br>Laragon<br>Wamp<br>Draw.io
-  </div>
-  </div>
+    <div class="col-md col-sm-12">
+
+        <p class="titre">Langages :</p>
+
+        <p class="contour">HTML5</p>
+        <p class="contour">CSS3<p>
+        <p class="contour">PHP<p>
+        <p class="contour">SQL<p>
+        <p class="contour">Javascript<p>
+        <p class="contour">Java<p>
+    </div>
+    <div class="col-md col-sm-12">
+
+        <p class="titre">Frameworks :</p>
+
+        <p class="contour">Bootstrap</p>
+        <p class="contour">JQuery</p>
+    </div>
+    <div class="col-md col-sm-12">
+
+        <p class="titre">Outils :</p>
+        
+        <p class="contour">
+            <img class="m-2" src="src/img/vscode.png" alt="vscode" title="VS Code" height="30px" width="35px">
+            VS Code
+        </p>
+        
+        <p class="contour">
+            <img class="m-2" src="src/img/mariadb.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            MariaDB
+            <img class="m-2" src="src/img/mysql.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            My SQL
+        </p>
+        
+        <p class="contour">
+            <img class="m-2" src="src/img/laragon.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            Laragon
+            <img class="m-2" src="src/img/wamp.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            Wamp
+        </p>
+
+        <p class="contour">
+            <img class="m-2" src="src/img/drawio.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            Draw.io
+            <img class="m-2" src="src/img/canva.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            Canva
+        </p>
+    </div>
+    </div>
 </div>
   
-  <h3 id="c">
+<h3 id="c">
     Contact
     <br>
     ___
 </h3>
 
-<div class="container">
 <div class="row">
-<div class="col"></div>
-<div class="col-5">
-  <form action="http://bienvu.net/script.php" method="POST" id="formulaire_contact">
-    <div class="form-group">      
-      <label id="nom"></label>
-      <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Veuillez saisir votre nom" required>
-    </div>
+<div class="col-md col-sm-2"></div>
+<div class="col-md-5 col-sm">
+    <form action="http://bienvu.net/script.php" method="POST" id="formulaire_contact">
+        <div class="form-group">      
+            <label id="nom"></label>
+            <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Veuillez saisir votre nom" required>
+        </div>
 
-    <div class="form-group">
-      <label id="email"></label>
-      <input type="email" class="form-control" name="Email" id="Email" placeholder="Veuillez saisir votre adresse mail" required>
-    </div>
+        <div class="form-group">
+            <label id="email"></label>
+            <input type="email" class="form-control" name="Email" id="Email" placeholder="Veuillez saisir votre adresse mail" required>
+        </div>
 
-    <div class="form-group">      
-      <label id="nom"></label>
-      <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Veuillez saisir votre objet" required>
-    </div>
+        <div class="form-group">      
+            <label id="objet"></label>
+            <input type="text" class="form-control" id="Objet" name="Objet" placeholder="Veuillez saisir votre objet" required>
+        </div>
 
-    <label></label>
-      <div class="input-group" >
-        <textarea class="form-control" name="Question" id="Question" placeholder="Veuillez saisir votre message" required></textarea>
-      </div>
-    <br>
-    <button type="submit" class="btn btn-dark">Envoyer</button>
-  </form>
+        <label id="question"></label>
+        <div class="input-group" >
+            <textarea class="form-control" name="Question" id="Question" placeholder="Veuillez saisir votre message" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark">Envoyer</button>
+    </form>
 </div>
-<div class="col"></div>
-</div>
+<div class="col-md col-sm-2"></div>
 </div>
 <br>
 
 <div class="row">
-<div class="col">
-  <img src="logo_carte.png" alt="logomap" title="logomap" height="50rem" width="50rem">
-  <p>Paris</p>
+<div class="col-md col-12">
+    <img src="src/img/logo_carte.png" alt="logomap" title="Localisation" height="50rem" width="50rem">
+    <p>Paris</p>
 </div>
 
-<div class="col">
-  <img src="logo_mail.png" alt="logomap" title="logomap" height="50rem" width="50rem">
-  <p>torche.bilhel@gmail.com</p>
+<div class="col-md col-12">
+    <img src="src/img/logo_mail.png" alt="logomap" title="Mail" height="50rem" width="50rem">
+    <p>torche.bilhel@gmail.com</p>
 </div>
 
-<div class="col">
-  <img src="logo_phone.png" alt="logomap" title="logomap" height="50rem" width="50rem">
-  <p>06.14.71.59.39</p>
+<div class="col-md col-12">
+    <img src="src/img/logo_phone.png" alt="logomap" title="Téléphone" height="50rem" width="50rem">
+    <p>06.14.71.59.39</p>
 </div>
 </div>
-</div>
+<br>
 
 <footer>
-<div class="row bdp">
+<div class="fixed-bottom">
+<div class="row bg-dark bdp">
 <div class="col"></div>
 <div class="col"></div>
-<div class="col-1">
-  <div><a href="#"><img src="logo_fleche.png" alt="logomap" title="logomap" height="25rem" width="25rem"></a></div>
+<div class="col-1"><a href="#"><img src="src/img/logo_fleche.png" alt="logomap" title="Page d'accueil" height="25rem" width="25rem"></a></div>
+</div>
 </div>
 </footer>
 
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
