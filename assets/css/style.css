@@ -59,3 +59,8 @@ body
     padding: 3px;
     font-family:'Courier New', Courier, monospace;
 }
+
+.erreur
+{
+    font-family: 'Courier New', Courier, monospace;
+}
