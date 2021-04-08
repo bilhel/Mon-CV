@@ -1,3 +1,8 @@
+window.document.addEventListener("scroll", function(){
+    var header = document.querySelector("nav")
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
+
 document.getElementById('formulaire_contact').addEventListener("submit", function(e)
 {
     var rnom = /(^[A-Z]+[a-zA-Zéèêëôœîïûüàáâæç-\s]+$)/;
@@ -68,7 +73,3 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
 //     surligne.style.color = "white";
 // });
 
-// window.document.addEventListener("scroll", function(){
-//     var header = document.querySelector("header")
-//     header.classList.toggle("sticky", window.scrollY > 0);
-// })
