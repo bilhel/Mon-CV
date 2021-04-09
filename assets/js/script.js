@@ -1,4 +1,4 @@
-window.document.addEventListener("scroll", function(){
+document.addEventListener("scroll", function(){
     var header = document.querySelector("nav")
     header.classList.toggle("sticky", window.scrollY > 0);
 })
@@ -61,15 +61,4 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
         document.getElementById("erreurmessage").style.color = 'rgb(0, 182, 0)';
     }
 });
-
-
-// document.addEventListener("mouseover", function(){
-//     var surligne = document.querySelector("surligne")
-//     surligne.style.color = "red";
-// });
-
-// document.addEventListener("mouseout", function(){
-//     var surligne = document.querySelector("surligne")
-//     surligne.style.color = "white";
-// });
 
