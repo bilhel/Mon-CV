@@ -88,3 +88,10 @@ body
 {
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar
+    {
+        background-color: rgb(34, 34, 34);
+    }  
+  }
