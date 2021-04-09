@@ -29,8 +29,8 @@ header ul
 
 .fond
 {
-    background-image: url('../../src/img/background.jpg');
-    background-image: url('../../src/img/background1.jpg');
+    background-image: url('../../assets/img/background.jpg');
+    background-image: url('../../assets/img/background1.jpg');
 }
 
 .signature
@@ -92,6 +92,90 @@ header ul
 .erreur
 {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.logogit
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.logolinkedin
+{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.pdp
+{
+    width: 15rem;
+    height: 15rem;
+}
+
+.vscode
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.mariadb
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.mysql
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.laragon
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.wamp
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.drawio
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.canva
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.logomap
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.logomail
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.logophone
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.logofleche
+{
+    width: 2rem;
+    height: 2rem;
 }
 
 @media screen and (max-width: 768px) {

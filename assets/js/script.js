@@ -1,17 +1,17 @@
 document.addEventListener("scroll", function(){
-    var header = document.querySelector("nav")
+    let header = document.querySelector("nav")
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
 document.getElementById('formulaire_contact').addEventListener("submit", function(e)
 {
-    var rnom = /(^[A-Z]+[a-zA-Zéèêëôœîïûüàáâæç-\s]+$)/;
-    var remail = /(^[\w\.-]+@[a-z]+[\.]{1}[a-z]{2,3}$)/;
+    let rnom = /(^[A-Z]+[a-zA-Zéèêëôœîïûüàáâæç-\s]+$)/;
+    let remail = /(^[\w\.-]+@[a-z]+[\.]{1}[a-z]{2,3}$)/;
 
-    var nom = document.getElementById("Nom").value;
-    var email = document.getElementById("Email").value;
-    var objet = document.getElementById("Objet").value;
-    var message = document.getElementById("Message").value;
+    let nom = document.getElementById("Nom").value;
+    let email = document.getElementById("Email").value;
+    let objet = document.getElementById("Objet").value;
+    let message = document.getElementById("Message").value;
 
     if (!rnom.test(nom))
     {remail

@@ -16,7 +16,7 @@
 <div class="text-center bg-image fond">
 
 <!-- Espace entre la navbar et la photo de profil -->
-<div id="Accueil" class="espace">.</div>
+<div id="accueil" class="espace">.</div>
 
 <!-- Barre de navigation -->
 <header>
@@ -27,20 +27,20 @@
 
     <!-- Lien GitHub en nouvel onglet -->
     <a href="https://www.github.com/bilhel" target="_blank">
-        <img src="src/img/logo_github.png" title="Mon GitHub" alt="logogit" height="45rem" width="45rem">
+        <img src="assets/img/logo_github.png" title="monGitHub" alt="logogit" class="logogit">
     </a>
 
     <!-- Lien Linkedin en nouvel onglet -->
     <a href="https://www.linkedin.com/in/torche-bilhel" target="_blank">
-        <img src="src/img/logo_linkedin.png" title="Mon Linkedin" alt="logolinkedin" height="40rem" width="40rem">
+        <img src="assets/img/logo_linkedin.png" title="monLinkedin" alt="logolinkedin" class="logolinkedin">
     </a>
 
     <!-- Liste de la barre de navigation -->
     <div class="collapse navbar-collapse bgmd" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#Accueil">Accueil</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Profil&Compétence">Profil & Compétences</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#accueil">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#profil_Compétence">Profil & Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -50,17 +50,17 @@
 
 <!-- Profil rapide -->
 <div class="signature">
-    <img src="src/img/pdp.png" title="pdp" alt="pdp" height="213rem" width="213rem">
+    <img src="assets/img/pdp.png" title="pdp" alt="pdp" class="pdp">
     <h1>TORCHE Bilhel</h1>
-    <p id="Profil&Compétence">Concepteur développeur d'application</p>
+    <p id="profil_compétence">Concepteur développeur d'application</p>
 </div>
 
 <!-- Première partie : profil et compétence -->
-<h3 class="pf">
+<h2 class="pf">
     Profil & Compétences
     <br>
     _______
-</h3>
+</h2>
 
 <!-- Lien de téléchargement du C.V -->
 <a href="https://drive.google.com/file/d/1YIgihXwme9VDG6Hy0cjlgGI6E7--6Kfj/view?usp=sharing" target="_blank" download="image" class="btn btn-dark btn-lg" tabindex="-1" role="button">Télécharger mon C.V</a>
@@ -103,28 +103,28 @@
         <p class="titre">Outils :</p>
         
         <p class="contour">
-            <img class="" src="src/img/vscode.png" alt="vscode" title="VS Code" height="30px" width="35px">
+            <img class="vscode" src="assets/img/vscode.png" alt="vscode" title="vsCode">
             VS Code
         </p>
         
         <p class="contour">
-            <img class="" src="src/img/mariadb.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            <img class="mariadb" src="assets/img/mariadb.png" alt="mariadb" title="mariaDB">
             MariaDB
-            <img class="" src="src/img/mysql.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            <img class="" src="assets/img/mysql.png" alt="mySQL" title="mySQL">
             My SQL
         </p>
         
         <p class="contour">
-            <img class="" src="src/img/laragon.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            <img class="laragon" src="assets/img/laragon.png" alt="laragon" title="laragon">
             Laragon
-            <img class="" src="src/img/wamp.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            <img class="wamp" src="assets/img/wamp.png" alt="wamp" title="wamp">
             Wamp
         </p>
 
         <p class="contour">
-            <img class="" src="src/img/drawio.png" alt="mariadb" title="Maria DB" height="30px" width="35px">
+            <img class="drawio" src="assets/img/drawio.png" alt="drawio" title="drawio">
             Draw.io
-            <img class="" src="src/img/canva.png" alt="mariadb" title="My SQL" height="30px" width="40px">
+            <img class="canva" src="assets/img/canva.png" alt="canva" title="canva">
             Canva
         </p>
     </div>
@@ -132,14 +132,14 @@
 </div>
 
 <!-- Espace entre la navbar et le formulaire -->
-<div id="Contact" class="espace">.</div>
+<div id="contact" class="espace">.</div>
 
 <!-- Deucième partie : contact -->
-<h3>
+<h2>
     Contact
     <br>
     ___
-</h3>
+</h2>
 
 <!-- Formulaire de contact avec validation JS -->
 <div class="row">
@@ -148,24 +148,24 @@
 <div class="col-md-5 col-sm">
     <form action="http://bienvu.net/script.php" method="POST" id="formulaire_contact">
         <div class="form-group">
-            <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Veuillez saisir votre nom">
-            <p class="erreur" id="erreurnom"></p>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Veuillez saisir votre nom">
+            <label for="nom" class="erreur" id="erreurnom"></label>
         </div>
 
         <div class="form-group">
-            <input type="email" class="form-control" name="Email" id="Email" placeholder="Veuillez saisir votre adresse mail">
-            <p class="erreur" id="erreuremail"></p>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Veuillez saisir votre adresse mail">
+            <label for="email" class="erreur" id="erreuremail"></label>
         </div>
 
         <div class="form-group">      
-            <input type="text" class="form-control" id="Objet" name="Objet" placeholder="Veuillez saisir votre objet">
-            <p class="erreur" id="erreurobjet"></p>
+            <input type="text" class="form-control" id="objet" name="objet" placeholder="Veuillez saisir votre objet">
+            <label for="objet" class="erreur" id="erreurobjet"></label>
         </div>
 
         <div class="input-group">
-            <textarea class="form-control" name="Message" id="Message" placeholder="Veuillez saisir votre message"></textarea>
+            <textarea class="form-control" name="message" id="message" placeholder="Veuillez saisir votre message"></textarea>
         </div>
-        <p class="erreur" id="erreurmessage"></p>
+        <label for="message" class="erreur" id="erreurmessage"></label>
         <br>
 
         <button type="submit" id="envoie" class="btn btn-dark">Envoyer</button>
@@ -180,17 +180,17 @@
 <!-- Logos emplacement, mail et phone -->
 <div class="row">
 <div class="col-md col-12">
-    <img src="src/img/logo_carte.png" alt="logomap" title="Localisation" height="50rem" width="50rem">
+    <img src="assets/img/logo_carte.png" alt="logomap" title="localisation" class="logomap">
     <p>Paris</p>
 </div>
 
 <div class="col-md col-12">
-    <img src="src/img/logo_mail.png" alt="mail" title="Mail" height="50rem" width="50rem">
+    <img src="assets/img/logo_mail.png" alt="mail" title="mail" class="logomail">
     <p>torche.bilhel@gmail.com</p>
 </div>
 
 <div class="col-md col-12">
-    <img src="src/img/logo_phone.png" alt="phone" title="Téléphone" height="50rem" width="50rem">
+    <img src="assets/img/logo_phone.png" alt="phone" title="phone" class="logophone">
     <p>06.14.71.59.39</p>
 </div>
 
@@ -203,7 +203,7 @@
 <div class="row bdp">
 <div class="col-md-sm"></div>
 
-<div class="col-md-sm1"><a href="#Accueil"><img src="src/img/logo_fleche.png" alt="logomap" title="Tête de page" height="35rem" width="35rem"></a></div>
+<div class="col-md-sm1"><a href="#accueil"><img src="assets/img/logo_fleche.png" alt="fleche" title="tête de page" class="logofleche"></a></div>
 
 <div class="col-md-sm"></div>
 
