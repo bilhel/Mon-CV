@@ -1,17 +1,17 @@
 document.addEventListener("scroll", function(){
     let header = document.querySelector("nav")
     header.classList.toggle("sticky", window.scrollY > 0);
-})
+});
 
 document.getElementById('formulaire_contact').addEventListener("submit", function(e)
 {
     let rnom = /(^[A-Z]+[a-zA-Zéèêëôœîïûüàáâæç-\s]+$)/;
     let remail = /(^[\w\.-]+@[a-z]+[\.]{1}[a-z]{2,3}$)/;
 
-    let nom = document.getElementById("Nom").value;
-    let email = document.getElementById("Email").value;
-    let objet = document.getElementById("Objet").value;
-    let message = document.getElementById("Message").value;
+    let nom = document.getElementById("nom").value;
+    let email = document.getElementById("email").value;
+    let objet = document.getElementById("objet").value;
+    let message = document.getElementById("message").value;
 
     if (!rnom.test(nom))
     {remail
@@ -21,7 +21,7 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
     }
     else
     {
-        document.getElementById("erreurnom").innerHTML = "Validé !";
+        document.getElementById("erreurnom").innerHTML = "Valide !";
         document.getElementById("erreurnom").style.color = 'rgb(0, 182, 0)';
     }
 
@@ -33,7 +33,7 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
     }
     else
     {
-        document.getElementById("erreuremail").innerHTML = "Validé !";
+        document.getElementById("erreuremail").innerHTML = "Valide !";
         document.getElementById("erreuremail").style.color = 'rgb(0, 182, 0)';
     }
 
@@ -45,7 +45,7 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
     }
     else
     {
-        document.getElementById("erreurobjet").innerHTML = "Validé !";
+        document.getElementById("erreurobjet").innerHTML = "Valide !";
         document.getElementById("erreurobjet").style.color = 'rgb(0, 182, 0)';
     }
 
@@ -57,8 +57,7 @@ document.getElementById('formulaire_contact').addEventListener("submit", functio
     }
     else
     {
-        document.getElementById("erreurmessage").innerHTML = "Validé !";
+        document.getElementById("erreurmessage").innerHTML = "Valide !";
         document.getElementById("erreurmessage").style.color = 'rgb(0, 182, 0)';
     }
 });
-
